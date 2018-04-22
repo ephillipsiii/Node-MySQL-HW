@@ -8,13 +8,13 @@ An attempt at a Node.js app using MySQL to display product information from a da
 <h1>
     Screenshots
 </h1>
-(assets/1.png "Prompt for initial purchase")
-(assets/2.png "Quanitity prompt")
-(assets/3 not enough stock.png "Demonstrating not enough stock to purchase")
-(assets/4 in stock.png "Demonstrating enough stock to purchase")
+![](assets/1.png "Prompt for initial purchase")
+![](assets/2.png "Quanitity prompt")
+![](assets/3notenoughstock.png "Demonstrating not enough stock to purchase")
+![](assets/4instock.png "Demonstrating enough stock to purchase")
 
 <h1>
     Issues to still be ironed out
 </h1>
 
-(assets/mysqlnotupdating.png "MySQL doesn't update")
+![](assets/mysqlnotupdating.png "MySQL doesn't update")
