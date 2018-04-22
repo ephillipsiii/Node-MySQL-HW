@@ -55,7 +55,28 @@ function displayProduct(){
                 }
             }
         }
-
-    ])
+        //taking the answers from inputs
+    ]).then(function(ans){
+        //purchasing var to reduce item id by 1
+        var purchasing = (ans.item_id)-1;
+        //making the amount purchased into an integer
+        var quantityPurchased = parseInt(ans.stock_quantity);
+        //taking the price, multiplying it by the amount purchased, and returning result as an integer, converting it into a string
+        var total = parseFloat(((res[purchasing].price)*quantityPurchased).toFixed(2));
+        //quantity check and adding total costs
+        if(res[purchasing].stock_quantity >= quantityPurchased){
+            //updating quantities
+            connection.query("UPDATE products SET ? WHERE ?", [
+                {stock_quantity: (res[purchasing].stock_quantity - quantityPurchased)},
+                {item_id: ans.id}
+            ], function(err, result){
+                if(err) throw err;
+                console.log("Your total: $" + total.toFixed(2) + "Your item(s) will be delivered shortly via Portal Gun.")
+                })
+            }else{
+                console.log("Not enough in stock to complete purchase");
+            }
+            rempromt();
+        });
     })
 }
