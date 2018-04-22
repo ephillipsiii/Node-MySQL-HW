@@ -67,6 +67,7 @@ function displayProduct(){
         if(res[purchasing].stock_quantity >= quantityPurchased){
             //updating quantities
             connection.query("UPDATE products SET ? WHERE ?", [
+                //SHOULDN'T THIS UPDATE IN SQL?????????
                 {stock_quantity: (res[purchasing].stock_quantity - quantityPurchased)},
                 {item_id: ans.id}
             ], function(err, result){
@@ -76,7 +77,9 @@ function displayProduct(){
             }else{
                 console.log("Not enough in stock to complete purchase");
             }
-            rempromt();
+            
         });
     })
 }
+
+
