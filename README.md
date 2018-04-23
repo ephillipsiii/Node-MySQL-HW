@@ -5,16 +5,16 @@
 
 ## Screenshots
     
-    ![Prompt](./assets/1.png)Prompt for initial purchase
-    ![Quanitity](./assets/2.png) Quanitity prompt
-    ![stock](./assets/3notenoughstock.png) Demonstrating not enough stock to purchase
-    ![stocktobuy](./assets/4instock.png) Demonstrating enough stock to purchase
+    ![Prompt](/assets/1.png)Prompt for initial purchase
+    ![Quanitity](/assets/2.png) Quanitity prompt
+    ![stock](/assets/3notenoughstock.png) Demonstrating not enough stock to purchase
+    ![stocktobuy](/assets/4instock.png) Demonstrating enough stock to purchase
 
     
 ## Issues to still be ironed out
 
 
-    ![issues](./assets/mysqlnotupdating.png) MySQL doesn't update
+    ![issues](/assets/mysqlnotupdating.png) MySQL doesn't update
 
     
 ## Dependencies
