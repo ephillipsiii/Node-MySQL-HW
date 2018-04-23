@@ -1,5 +1,4 @@
 # Node-MySQL-HW
-<body>
     <h1>
         Rick and Morty Themed Bamazon
     </h1>
@@ -26,5 +25,3 @@
     Requires the use of NPM packages:
     Inquirer
     MySQL
-
-</body>
