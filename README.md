@@ -1,24 +1,31 @@
 # Node-MySQL-HW
-##Rick and Morty Themed Bamazon
+## Rick and Morty Themed Bamazon
 
     An attempt at a Node.js app using MySQL to display product information from a database in MySQL.  The database includes products with their id numbers, their department, price, and quantity in stock.
 
 ## Screenshots
     
-    ![Prompt](assets/initialquery.png)
+    ![Prompt](./assets/initialquery.png)
+    
     Prompt for initial purchase
-    ![Quanitity](assets/itemquery.png)
+    
+    ![Quanitity](./assets/itemquery.png)
+    
     Quanitity prompt
-    ![stock](assets/notenoughstock.png) 
+    
+    ![stock](./assets/notenoughstock.png)
+    
     Demonstrating not enough stock to purchase
-    ![stocktobuy](assets/instock.png) 
+    
+    ![stocktobuy](./assets/instock.png)
+    
     Demonstrating enough stock to purchase
 
     
 ## Issues to still be ironed out
 
 
-    ![issues](assets/sqlnotupdating.png)
+    ![issues](./assets/sqlnotupdating.png)
     MySQL doesn't update
 
     
