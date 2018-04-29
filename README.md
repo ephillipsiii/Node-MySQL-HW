@@ -20,6 +20,10 @@ Prompt for initial purchase
  ![](./assets/instock.png)
     
  Demonstrating enough stock to purchase
+ 
+ ![](./assets/anythingelse.png)
+ 
+ Asking if customer would like anything else
 
     
 ## Issues to still be ironed out
