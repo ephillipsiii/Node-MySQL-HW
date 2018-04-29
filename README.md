@@ -1,36 +1,36 @@
 # Node-MySQL-HW
 ## Rick and Morty Themed Bamazon
 
-    An attempt at a Node.js app using MySQL to display product information from a database in MySQL.  The database includes products with their id numbers, their department, price, and quantity in stock.
+An attempt at a Node.js app using MySQL to display product information from a database in MySQL.  The database includes products with their id numbers, their department, price, and quantity in stock.
 
 ## Screenshots
     
-    ![](./assets/initialquery.png)
+![](./assets/initialquery.png)
     
-    Prompt for initial purchase
+Prompt for initial purchase
     
-    ![](./assets/itemquery.png)
+![](./assets/itemquery.png)
     
-    Quanitity prompt
+ Quanitity prompt
     
-    ![](./assets/notenoughstock.png)
+ ![](./assets/notenoughstock.png)
     
-    Demonstrating not enough stock to purchase
+ Demonstrating not enough stock to purchase
     
-    ![](./assets/instock.png)
+ ![](./assets/instock.png)
     
-    Demonstrating enough stock to purchase
+ Demonstrating enough stock to purchase
 
     
 ## Issues to still be ironed out
 
 
-    ![](./assets/sqlnotupdating.png)
-    MySQL doesn't update
+![](./assets/sqlnotupdating.png)
+ MySQL doesn't update
 
     
 ## Dependencies
  
-    Requires the use of NPM packages:
-    Inquirer
-    MySQL
+ Requires the use of NPM packages:
+ Inquirer
+ MySQL
