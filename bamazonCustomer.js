@@ -77,9 +77,26 @@ function displayProduct(){
             }else{
                 console.log("Not enough in stock to complete purchase");
             }
+            anythingElse();
+            })
             
         });
+    }
+//function to ask if customer would like anything else
+function anythingElse(){
+    inquirer.prompt([{
+        type: "confirm",
+        name: "reply",
+        message: "Would you like anything else?"
+    }]).then(function(ans){
+        if(ans.reply){
+            displayProduct();
+        }else{
+            console.log("Have fun on your adventures!");
+        }
     })
 }
+
+
 
 
